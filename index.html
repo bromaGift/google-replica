@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="utf-8">
+    <title>Google replica</title>
+</head>
+<body>
+    <ul class="head">
+        <li><a href="#">Gmail</a></li>
+        <li><a href="#">Images</a></li>
+        <li id="sign"><a href="#">Sign In</a></li>
+        <li><a href="#"><img src="https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg" width="50px" height="50px"></li>
+    </ul>
+
+    <div class="main">
+        <div class="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"><br>
+    </div>
+    <div class="searchbox">
+        <input type="text" name="text" placeholder="search google or enter URL"><span class="glyphicon glyphicon-search"></span>
+    </div>
+
+    <div class="btn" id="btn">
+        <button>Google Search</button>
+        <button>I'm feeling lucky</button>
+    </div>
+    </div>
+
+    <div class="lang">
+        <label>Google Offered in: </label>
+        <a href="#"> Igbo </a>
+        <a href="#"> Hausa </a>
+        <a href="#"> Yoruba </a>
+        <a href="#"> Nigerian-Pidgin </a>
+    </div>
+    
+    <footer class="footer">
+        <div class="country">
+     <span>Nigeria</span>
+    </div>
+    <hr>
+    
+    <div class="footer-links">
+    <div class="footer-left">
+        <a href="#">Advertising</a>
+        <a href="#">Business</a>
+        <a href="#">About</a>
+    </div>
+
+    <div class="footer-right">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Settings</a>
+    </div>
+    </div>
+</footer>
+</body>
+
+<script>
+          let button = document.getElementById("btn");
+    button.addEventListener("click", myfunction);
+
+    function myfunction(){
+        alert("please be patient")
+    }
+
+    let signIn = document.getElementById("sign");
+</script>
+</html>
